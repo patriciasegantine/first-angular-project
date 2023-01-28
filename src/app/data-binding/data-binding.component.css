@@ -2,3 +2,13 @@
 section {
   margin-top: 2rem;
 }
+
+.text.highlight {
+  background: red;
+}
+
+.text {
+  background: black;
+  padding: 2rem;
+  border-radius: .3rem;
+}
