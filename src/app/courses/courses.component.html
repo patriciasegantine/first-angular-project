@@ -1,0 +1,11 @@
+<p>
+  Lista de cursos do portal {{ portalName }}
+</p>
+
+<app-courses-details/>
+
+<ul>
+  <li *ngFor='let course of courses'>
+    {{course}}
+  </li>
+</ul>
