@@ -1,11 +1,14 @@
-<p>
-  Lista de cursos do portal {{ portalName }}
-</p>
+<section>
+  <h1> # 1nd project - courses #</h1>
+  <p>
+    Lista de cursos do portal {{ portalName }}
+  </p>
 
-<app-courses-details/>
+  <app-courses-details/>
 
-<ul>
-  <li *ngFor='let course of courses'>
-    {{course}}
-  </li>
-</ul>
+  <ul>
+    <li *ngFor='let course of courses'>
+      {{course}}
+    </li>
+  </ul>
+</section>
